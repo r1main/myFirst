@@ -1,0 +1,25 @@
+.container {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+    "left_c empty"
+    "left_c left_c"
+    "left_c left_c"
+    "left_c left_c"
+    "left_c left_c"
+    "emtpy left_c";
+  column-gap: 0;
+}
+.empty {
+  height: 40px;
+}
+.left_c {
+  width: 319px;
+  height: 177px;
+  border-style: solid;
+  border-color: black;
+  background-color: aqua;
+  color: brown;
+}
