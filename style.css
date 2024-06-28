@@ -23,3 +23,6 @@
   background-color: aqua;
   color: brown;
 }
+.some_class {
+  display: flex;
+}
